@@ -28,3 +28,5 @@ models:
                 - not_null
 
     - name: ACC
+    - name: AAA
+
