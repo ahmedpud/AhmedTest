@@ -30,4 +30,5 @@ models:
     - name: ACC
     - name: AAA
     - name: DDD
+    - name: BBB
 
