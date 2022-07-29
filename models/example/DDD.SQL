@@ -1,2 +1,3 @@
-{{ config(materialized='table', database='pud', schema='pud_schema', alias='LEVEL31') }}
-SELECT ID, NAME, CITY FROM TEST_DB.TEST_SCHEMA.LEVEL2
+{{ config(materialized='table', database='pud', schema='pud_schema', alias='LOCATION15') }}
+
+SELECT ID,FIRSTNAME,LASTNAME,LOCATION FROM  TEST_DB.TEST_SCHEMA.LOCATION
